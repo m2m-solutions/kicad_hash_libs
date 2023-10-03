@@ -1,0 +1,22 @@
+(module MountingHole_M3_Minimal_Screw_Standoff (layer F.Cu) (tedit 5F3D82DD)
+  (attr virtual)
+  (fp_text reference REF** (at 0 0 unlocked) (layer F.Fab)
+    (effects (font (size 0.2 0.2) (thickness 0.02)))
+  )
+  (fp_text value VAL** (at 0 0.3 unlocked) (layer F.Fab) hide
+    (effects (font (size 0.2 0.2) (thickness 0.02)))
+  )
+  (fp_circle (center 0 0) (end 2.1 0) (layer F.Fab) (width 0.05))
+  (fp_circle (center 0 0) (end 2.4 0) (layer F.CrtYd) (width 0.05))
+  (pad 1 thru_hole circle (at 0 0) (size 4.2 4.2) (drill 3.2) (layers *.Cu *.Mask))
+  (model "${KIPRJMOD}/../../purplepoint_kicad/packages3d/M3x6mm Screw White.step"
+    (offset (xyz 0 0 2.5))
+    (scale (xyz 0.4 0.4 0.4))
+    (rotate (xyz 0 -90 0))
+  )
+  (model "${KIPRJMOD}/../../purplepoint_kicad/packages3d/M3x6mm Stud F-F White.step"
+    (offset (xyz 0 0 -4.8))
+    (scale (xyz 0.4 0.4 0.4))
+    (rotate (xyz 90 0 0))
+  )
+)

@@ -1,0 +1,16 @@
+(footprint "TestPoint" (version 20220914) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -0.25 unlocked) (layer "F.Fab") hide
+      (effects (font (size 0.2 0.2) (thickness 0.02)))
+    (tstamp c3946b55-72ab-4006-a0a5-7769451a2893)
+  )
+  (fp_text value "VAL**" (at 0 0.35 unlocked) (layer "F.Fab") hide
+      (effects (font (size 0.2 0.2) (thickness 0.02)))
+    (tstamp bdc9f9a3-deed-4fcc-890d-851423685c59)
+  )
+  (fp_circle (center 0 0) (end 0.9 0)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 4ee09bfe-f614-46ae-ae0b-ca670b4a0767))
+  (pad "1" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.4) (property pad_prop_testpoint) (layers *.Cu "F.Mask") (tstamp 799765d5-cb4b-481b-ab1b-76d49ef3b31f))
+  (pad "1" smd circle (at 0 0) (size 1.6 1.6) (property pad_prop_testpoint) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0dfa61b4-78bc-4e4b-ab53-1aec06cc8296))
+)

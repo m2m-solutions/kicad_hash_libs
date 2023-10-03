@@ -34,7 +34,7 @@
     )
     (symbol "+24v_1_1"
       (pin power_in line (at 0 0 90) (length 0) hide
-        (name "+3v3" (effects (font (size 1.0 1.0))))
+        (name "+24v" (effects (font (size 1.0 1.0))))
         (number "1" (effects (font (size 1.0 1.0))))
       )
     )
@@ -114,7 +114,7 @@
     )
     (symbol "+5v_1_1"
       (pin power_in line (at 0 0 90) (length 0) hide
-        (name "+3v3" (effects (font (size 1.0 1.0))))
+        (name "+5v" (effects (font (size 1.0 1.0))))
         (number "1" (effects (font (size 1.0 1.0))))
       )
     )
@@ -208,7 +208,7 @@
     )
     (symbol "USB_VBus_1_1"
       (pin power_in line (at 0 0 90) (length 0) hide
-        (name "+3v3" (effects (font (size 1.0 1.0))))
+        (name "USB_VBus" (effects (font (size 1.0 1.0))))
         (number "1" (effects (font (size 1.0 1.0))))
       )
     )
@@ -248,7 +248,7 @@
     )
     (symbol "VBus_1_1"
       (pin power_in line (at 0 0 90) (length 0) hide
-        (name "+3v3" (effects (font (size 1.0 1.0))))
+        (name "VBus" (effects (font (size 1.0 1.0))))
         (number "1" (effects (font (size 1.0 1.0))))
       )
     )
