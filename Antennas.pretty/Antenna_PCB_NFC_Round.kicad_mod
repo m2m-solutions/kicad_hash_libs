@@ -1,4 +1,4 @@
-(footprint "Antenna_PCB_NFC" (version 20220818) (generator pcbnew)
+(footprint "Antenna_PCB_NFC_Round" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
   (fp_text reference "REF**" (at 0 -1) (layer "F.Fab") hide
@@ -731,9 +731,9 @@
   (pad "1" smd oval (at -0.217514 -6.226007 181.2652252) (size 0.535134 0.1) (layers "F.Cu") (tstamp 8560092d-16a7-45ff-8c2f-723f92990e49))
   (pad "1" smd oval (at -0.217124 -6.220436 182.7355887) (size 0.534744 0.1) (layers "B.Cu") (tstamp 88889a33-02e3-42bb-b9cd-2eac6c043e87))
   (pad "1" smd oval (at -0.20875 5.975034 358.7656214) (size 0.517596 0.1) (layers "B.Cu") (tstamp 60576392-dc05-4478-ae6e-89476d843cea))
-  (pad "1" thru_hole circle (at 0 5.979532 270) (size 0.5 0.5) (drill 0.3) (layers *.Cu *.Mask) (tstamp ddbe94b0-0ad2-4e2d-a9cf-a099d2a1e598))
-  (pad "1" smd oval (at 0 10.2 270) (size 0.5 0.1) (layers "B.Cu") (tstamp 33c78603-23b8-4319-8671-5712244c4144))
+  (pad "1" thru_hole circle (at 0 5.979532 270) (size 0.5 0.5) (drill 0.3) (layers "*.Cu" "*.Mask") (tstamp ddbe94b0-0ad2-4e2d-a9cf-a099d2a1e598))
   (pad "1" smd oval (at 0 10.2 270) (size 0.5 0.1) (layers "F.Cu") (tstamp b21520a2-e6b8-4bab-9193-e82954754dbd))
+  (pad "1" smd oval (at 0 10.2 270) (size 0.5 0.1) (layers "B.Cu") (tstamp 33c78603-23b8-4319-8671-5712244c4144))
   (pad "1" smd roundrect (at 0 10.5 315) (size 0.5 0.5) (layers "F.Cu") (roundrect_rratio 0.2) (tstamp 512f8f5a-b0e1-4dee-a254-23dfb073c702))
   (pad "1" smd roundrect (at 0 10.5 45) (size 0.5 0.5) (layers "B.Cu") (roundrect_rratio 0.2) (tstamp b7891a55-7175-4b55-afac-42a3379c73d0))
   (pad "1" smd oval (at 0.20875 5.975034 181.2343786) (size 0.517596 0.1) (layers "F.Cu") (tstamp 7dd177aa-6074-4b60-b8bc-3b3705ca2ef9))
