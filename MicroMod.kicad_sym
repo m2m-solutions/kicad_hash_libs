@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20230620) (generator kicad_symbol_editor)
+(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
   (symbol "MicroMod_Function_Connector" (in_bom yes) (on_board yes)
     (property "Reference" "J" (at -15.24 28.448 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
