@@ -32,7 +32,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c50ca2c7-0951-4fc9-90cc-5625e4916004))
   (pad "1" smd roundrect (at -3.3875 0) (size 1.925 5.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.12987) (tstamp 6afcb6af-3635-40eb-a8c0-6ef29582227d))
   (pad "2" smd roundrect (at 3.3875 0) (size 1.925 5.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.12987) (tstamp ab0e7f4f-942b-40a9-a26c-7aa32ba59510))
-  (model "${KIPRJMOD}/../../purplepoint_kicad/packages3d/2920L185.stp"
+  (model "${KIPRJMOD}/../../purplepoint_kicad/packages3d/2920L185.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -16,7 +16,11 @@
 			)
 		)
 	)
+<<<<<<< HEAD
 	(property "Value" "BL5340_453-00053R"
+=======
+	(property "Value" "VAL**"
+>>>>>>> 5e9dd24 (Start of cleanup)
 		(at -0.95 5.4 -90)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -29,12 +33,20 @@
 			)
 		)
 	)
+<<<<<<< HEAD
 	(property "Footprint" ""
+=======
+	(property "Footprint" "BL5340_453-00053R"
+>>>>>>> 5e9dd24 (Start of cleanup)
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
+<<<<<<< HEAD
 		(uuid "2a34ccc0-e765-458f-ba8e-d123836c4555")
+=======
+		(uuid "8cf63dd4-7505-4284-b5dc-c2bff5b44c4c")
+>>>>>>> 5e9dd24 (Start of cleanup)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +58,11 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
+<<<<<<< HEAD
 		(uuid "6f14b545-9d78-495a-a7a4-adf12b16350f")
+=======
+		(uuid "f5f38ee5-938f-4b8c-9d41-35d90563d058")
+>>>>>>> 5e9dd24 (Start of cleanup)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +74,11 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
+<<<<<<< HEAD
 		(uuid "fdad7239-36f2-470c-9c0a-3d93582d6268")
+=======
+		(uuid "6c16fe7a-5bae-4513-91c8-2489c5e21d9a")
+>>>>>>> 5e9dd24 (Start of cleanup)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -77,6 +97,7 @@
 		(layer "F.SilkS")
 		(uuid "909adef8-a876-4f6a-82f3-ef1fd3a944be")
 	)
+<<<<<<< HEAD
 	(fp_rect
 		(start 0 0)
 		(end 15 10)
@@ -88,6 +109,8 @@
 		(layer "F.CrtYd")
 		(uuid "1bd63527-4980-4ac1-9094-ec6480bfc6e1")
 	)
+=======
+>>>>>>> 5e9dd24 (Start of cleanup)
 	(pad "1" smd rect
 		(at 10.05 9.55)
 		(size 0.5 0.5)
@@ -641,4 +664,19 @@
 			)
 		)
 	)
+<<<<<<< HEAD
 )
+=======
+	(model "${KIPRJMOD}/../../kicad_hash_libs/3dModels/BL5340 453-00052.step"
+		(offset
+			(xyz 7.5 -5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)
+>>>>>>> 5e9dd24 (Start of cleanup)

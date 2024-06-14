@@ -847,7 +847,7 @@
       )
     )
   )
-  (model "${KIPRJMOD}/../../purplepoint_kicad/packages3d/myc-yf13x-STEP.stp"
+  (model "${KIPRJMOD}/../../purplepoint_kicad/packages3d/myc-yf13x-STEP.step"
     (offset (xyz -18.5 -19.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

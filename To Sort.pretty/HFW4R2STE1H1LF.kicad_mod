@@ -51,7 +51,7 @@
   (pad "4" smd rect (at 1.5 -3) (size 0.6 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f382aa1e-bc9e-4d16-b63e-2e89330984a2))
   (pad "MP1" smd rect (at -2.5 -0.9) (size 0.7 4.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a90e50e1-3fd3-43fd-b47b-df863f51651b))
   (pad "MP2" smd rect (at 2.5 -0.9) (size 0.7 4.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5fb017d9-486e-4f0d-baad-80bee41d17d1))
-  (model "HFW4R-2STE1H1LF.stp"
+  (model "HFW4R-2STE1H1LF.step"
     (offset (xyz -12.9999998 2.749999959 0.01999999925))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -180))

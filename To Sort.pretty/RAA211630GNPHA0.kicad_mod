@@ -60,7 +60,7 @@
   (pad "19" smd rect (at -1.25 -1.952) (size 0.25 0.52) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0d1af664-2288-4844-ad3d-eac44855e02e))
   (pad "20" smd rect (at 0 0.338 90) (size 0.25 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2b34ad82-8614-4c56-9ac5-1d80247a7c91))
   (pad "21" smd rect (at 0 -1.29 90) (size 0.805 2.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6a43aa94-d1b9-488f-95af-7e8c8ee5b385))
-  (model "${KIPRJMOD}/../../purplepoint_kicad/packages3d/RAA211250GNP#HA0.stp"
+  (model "${KIPRJMOD}/../../purplepoint_kicad/packages3d/RAA211250GNP#HA0.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

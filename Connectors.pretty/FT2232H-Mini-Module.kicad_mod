@@ -95,7 +95,7 @@
   (pad "50" thru_hole circle (at 14.365 -13.028) (size 1.65 1.65) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 603e7a1a-1bfe-46b0-ba4d-50138788788c))
   (pad "51" thru_hole circle (at 16.905 -10.488) (size 1.65 1.65) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 808f4afe-45df-4696-be36-324ad63565a8))
   (pad "52" thru_hole circle (at 16.905 -13.028) (size 1.65 1.65) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 51cba62c-88e7-4c86-ae1e-a3b0ab957b2e))
-  (model "FT4232H_MINI_MODULE.stp"
+  (model "FT4232H_MINI_MODULE.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

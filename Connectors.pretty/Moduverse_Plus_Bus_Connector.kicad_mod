@@ -218,7 +218,7 @@
       fa568be2-1e89-4ab5-8516-58bd357f683b
     )
   )
-  (model "/Users/mark/jacdac/jacdac_boards/jacdac_kicad/packages3d/530480310.stp"
+  (model "/Users/mark/jacdac/jacdac_boards/jacdac_kicad/packages3d/530480310.step"
     (offset (xyz 1.25 -3.5 1.9))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

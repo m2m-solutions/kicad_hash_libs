@@ -220,7 +220,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "085394ce-0096-4216-bad6-be98a17112df")
 	)
-	(model "W25Q64JVXGIM_TR.stp"
+	(model "W25Q64JVXGIM_TR.step"
 		(offset
 			(xyz 0 0 0)
 		)

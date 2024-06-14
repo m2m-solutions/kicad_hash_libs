@@ -77,7 +77,7 @@
   (pad TP4 smd rect (at -2.500 -17.5 90) (size 1.500 1.500) (layers F.Cu F.Paste F.Mask))
   (pad TP5 smd rect (at -2.500 -15 90) (size 1.500 1.500) (layers F.Cu F.Paste F.Mask))
   (pad TP6 smd rect (at -2.500 -12.5 90) (size 1.500 1.500) (layers F.Cu F.Paste F.Mask))
-  (model PICO.stp
+  (model PICO.step
     (at (xyz 0 0.0019685039663409 0.019685039370079))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

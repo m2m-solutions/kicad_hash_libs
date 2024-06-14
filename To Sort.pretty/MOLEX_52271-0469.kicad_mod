@@ -61,7 +61,7 @@
   (pad "4" smd rect (at 1.5 -3.775) (size 0.6 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e55b6ed1-dd09-41a2-804c-16c99daaccd6))
   (pad "MP1" smd rect (at -4.65 -1.425) (size 2.1 2.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 89192988-07bc-46e2-aa89-d38ce141ac78))
   (pad "MP2" smd rect (at 4.65 -1.425) (size 2.1 2.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 45f068ec-7998-4f53-afba-f2e9f8d0de2d))
-  (model "52271-0469.stp"
+  (model "52271-0469.step"
     (offset (xyz 0 2.499999962 2.999999955))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 -180))

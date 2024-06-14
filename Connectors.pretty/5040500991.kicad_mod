@@ -56,7 +56,7 @@
   (pad 9 smd rect (at -6.000 3.04 0) (size 0.600 1.000) (layers F.Cu F.Paste F.Mask))
   (pad MP1 smd rect (at 8.605 -2.15 0) (size 1.250 1.800) (layers F.Cu F.Paste F.Mask))
   (pad MP2 smd rect (at -8.605 -2.15 0) (size 1.250 1.800) (layers F.Cu F.Paste F.Mask))
-  (model 504050-0991.stp
+  (model 504050-0991.step
     (at (xyz 0 0.073622047431826 0.040157479564036))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
