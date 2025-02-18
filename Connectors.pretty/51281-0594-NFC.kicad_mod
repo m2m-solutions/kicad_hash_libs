@@ -1,0 +1,174 @@
+(footprint "51281-0594-NFC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "51281-0594-NFC")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at 0 1.8 0)
+		(layer "F.Fab")
+		(uuid "97c9608d-7864-487c-804a-15654d0c6645")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 2.4 0)
+		(layer "F.Fab")
+		(uuid "976f8517-0ab0-4415-a5b0-1fb4a7733693")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Footprint" "51281-0594-NFC"
+		(at 2.6 9.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "154d6cdb-7c13-460f-8ed0-c6608bb6857d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.molex.com/pdm_docs/sd/512810594_sd.pdf"
+		(at 3.6 11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "674ae846-d031-4c91-940a-81b0e13e8081")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a5ab2dd-3b47-4208-91d2-af72c48692b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.6 -0.8)
+		(end 2.6 4.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3118acdc-39dc-421d-8bf7-376fd7279a2b")
+	)
+	(fp_line
+		(start -2.3 0.3)
+		(end 2.3 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b9ffd71-ab49-4476-ac09-d4171cba5a2b")
+	)
+	(fp_line
+		(start -2.3 3.85)
+		(end -2.3 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e69e0247-7583-4573-a7fb-5e91ddb2be62")
+	)
+	(fp_line
+		(start 2.3 0.3)
+		(end 2.3 3.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ee6b02c-5761-464b-897f-7f58d70621bc")
+	)
+	(fp_line
+		(start 2.3 3.85)
+		(end -2.3 3.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d802f54b-1ac0-48a2-84e3-78ce637a6385")
+	)
+	(pad "1" smd rect
+		(at -0.5 0)
+		(size 0.35 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f3d6cc15-09fd-4a92-b5d1-562ffc14ce57")
+	)
+	(pad "2" smd rect
+		(at -1.9 2.3)
+		(size 0.6 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6672b171-29f9-4334-95c1-68bf3c99a23f")
+	)
+	(pad "2" smd rect
+		(at -1 0)
+		(size 0.35 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5b791d66-8ad9-4dce-b404-710ea16ad691")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 0.35 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1e3d42d8-dc94-4853-9c43-d0baead0cfca")
+	)
+	(pad "2" smd rect
+		(at 1 0)
+		(size 0.35 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "addb747b-48f9-4438-b4c6-9a295bbbf4da")
+	)
+	(pad "2" smd rect
+		(at 1.9 2.3)
+		(size 0.6 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "10e2e76e-6db5-40ab-9d89-e68d09cbc558")
+	)
+	(pad "3" smd rect
+		(at 0.5 0)
+		(size 0.35 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8364a484-4d35-4dab-b184-ca2e50f5ad1f")
+	)
+	(model "51281-0594.stp"
+		(offset
+			(xyz 0 -0.04999999999 0.04999999999)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
