@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(property "Reference" "H3"
+	(property "Reference" "REF**"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Pad"
+	(property "Value" "VAL**"
 		(at 0 0.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -52,7 +52,7 @@
 			)
 		)
 	)
-	(property "Description" "Mounting Hole with connection"
+	(property "Description" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -64,19 +64,7 @@
 			)
 		)
 	)
-	(property "exclude_from_bom" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "557288db-e9b9-4655-8009-e1e0c18d368a")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(attr exclude_from_pos_files exclude_from_bom)
+	(attr board_only exclude_from_pos_files exclude_from_bom dnp)
 	(fp_circle
 		(center 0 0)
 		(end 2.4 0)
