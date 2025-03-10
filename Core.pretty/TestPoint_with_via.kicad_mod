@@ -3,12 +3,12 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(property "Reference" "TP2"
+	(property "Reference" "TP8"
 		(at 0 -0.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "05ebfe7d-f393-4761-bdc2-ab45a0d62960")
+		(uuid "8466ea67-cbd4-4311-a1f8-252e49c42334")
 		(effects
 			(font
 				(size 0.2 0.2)
@@ -16,12 +16,12 @@
 			)
 		)
 	)
-	(property "Value" "TestPoint_with_via"
-		(at 0 0.35 0)
+	(property "Value" "~"
+		(at 0 0.349999 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "edbd194b-557d-47e1-bbb5-e017cdae7caa")
+		(uuid "eb966020-3d63-47d7-bd3b-6d55d18996b6")
 		(effects
 			(font
 				(size 0.2 0.2)
@@ -29,11 +29,11 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "#Core:TestPoint_with_via"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f157a8e4-be65-48e5-bf8f-03ac816fee61")
+		(uuid "7b112f90-bace-4d96-a188-14478ae5f2a2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fbc4236f-efa7-4947-bd2b-2baab30a7de1")
+		(uuid "b9676acd-e40b-43a5-ad5f-8e58270a041c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,11 +53,11 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "test point"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a02c3ad3-e670-420d-a9aa-495f2e1c58d4")
+		(uuid "cacbdd27-ac00-43e8-8268-3620ed622adf")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -65,29 +65,95 @@
 			)
 		)
 	)
-	(property "Stock_ID" "---"
+	(property "Height" ""
 		(at 0 0 0)
+		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3e9ed8b4-d3f9-4a07-ab51-d4a2eaf61cc9")
+		(uuid "2e3b2247-5138-46d3-9b19-7e7fbc398da1")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
 	)
-	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(property "Manufacturer_Name" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ac651e6-e17f-424c-8537-188238a4460c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdb0ff12-bd7c-4243-9301-8092e19d3e00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c42cd49-7934-4c47-9f47-73ff4b24c427")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb01e284-963f-4202-8066-322188cd3807")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7355a1c5-f671-49d4-b024-97ade406a7f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 	(fp_arc
 		(start -0.292485 -0.875994)
-		(mid -0.000572 -1.142437)
+		(mid -0.000572 -1.142436)
 		(end 0.292377 -0.877132)
 		(stroke
 			(width 0.06)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "2c877f15-f2c8-4887-92cd-92a53a797910")
+		(uuid "bfcb0c49-52e2-40c1-99d0-c793216b5e3c")
 	)
 	(fp_arc
 		(start 0.292377 -0.877132)
@@ -98,12 +164,12 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "25732747-2a9b-4b7a-bdaf-61b793827f9e")
+		(uuid "dac23167-6cf8-4868-b8ce-ca2545fce3bc")
 	)
 	(pad "1" thru_hole circle
 		(at 0 -0.85)
-		(size 0.4 0.4)
-		(drill 0.2)
+		(size 0.45 0.45)
+		(drill 0.3)
 		(property pad_prop_testpoint)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
@@ -118,7 +184,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "87f768a9-9277-4811-b83e-05c4a05e739d")
+		(uuid "e28e4209-4eb0-411c-9537-7f082c599281")
 	)
 	(pad "1" smd circle
 		(at 0 0)
@@ -136,6 +202,6 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "b7a8beda-9736-4e93-a580-96ad5c73a935")
+		(uuid "e520321d-56db-47a9-a5aa-92a45019143b")
 	)
 )
