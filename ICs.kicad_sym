@@ -5162,6 +5162,7 @@
 	)
 	(symbol "INA826AIDR"
 		(pin_names
+<<<<<<< Updated upstream
 			(offset 0.127)
 		)
 		(exclude_from_sim no)
@@ -5551,37 +5552,68 @@
 	)
 	(symbol "MIC5259"
 		(pin_names
+=======
+>>>>>>> Stashed changes
 			(offset 1.016)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+<<<<<<< Updated upstream
 		(property "Reference" "U16"
 			(at 6.35 4.191 0)
+=======
+		(property "Reference" "U"
+			(at -5.08 10.795 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 			)
 		)
 		(property "Value" "MIC5353"
 			(at 6.35 1.8796 0)
+=======
+				(justify left bottom)
+			)
+		)
+		(property "Value" "INA826AIDR"
+			(at -2.286 -7.874 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 			)
 		)
 		(property "Footprint" "dfn:DFN-6-1EP_1.6x1.6mm_P0.5mm_EP0.5x1.26mm"
 			(at 0 0 0)
+=======
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at -0.254 -26.162 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/mic5353.pdf"
+=======
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+>>>>>>> Stashed changes
 			(at 0 0 0)
 			(effects
 				(font
@@ -5599,12 +5631,27 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "MPN" "MIC5353-3.3YMT"
+=======
+		(property "MF" ""
+			(at 0.254 -28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.75mm"
+>>>>>>> Stashed changes
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 				(hide yes)
 			)
 		)
@@ -5615,11 +5662,125 @@
 				(stroke
 					(width 0)
 					(type solid)
+=======
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at -0.254 -23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 0 -14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "G"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at -0.762 -17.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "INA826AIDR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at -1.27 -18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 0.254 -30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "INA826AIDR_0_0"
+			(rectangle
+				(start -6.7056 7.6454)
+				(end 13.6144 -5.0546)
+				(stroke
+					(width 0.254)
+					(type default)
+>>>>>>> Stashed changes
 				)
 				(fill
 					(type background)
 				)
 			)
+<<<<<<< Updated upstream
 		)
 		(symbol "MIC5259_1_1"
 			(pin input line
@@ -5629,17 +5790,247 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+=======
+			(polyline
+				(pts
+					(xy -2.54 -5.08) (xy 5.588 0)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -2.54) (xy -5.08 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -7.62 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 2.54) (xy -7.62 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 2.54) (xy -2.54 -5.08)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 5.08) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 5.08) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 7.62) (xy -2.54 5.08)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -2.54) (xy -0.635 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 5.08) (xy -0.635 5.08)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.905) (xy -1.27 -3.175)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.032) (xy 2.54 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 4.572) (xy 2.54 7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.588 0) (xy 7.62 1.27)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.588 0) (xy 12.7 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 1.27) (xy -2.54 7.62)
+				)
+				(stroke
+					(width 0.4064)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 1.27) (xy 10.16 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 2.54) (xy 12.7 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -12.7 7.62 0)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+>>>>>>> Stashed changes
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
+<<<<<<< Updated upstream
 							(size 1.27 1.27)
+=======
+							(size 1.016 1.016)
+>>>>>>> Stashed changes
 						)
 					)
 				)
 			)
+<<<<<<< Updated upstream
 			(pin power_in line
 				(at 6.35 -12.7 90)
 				(length 2.54)
@@ -5647,17 +6038,31 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+=======
+			(pin passive line
+				(at -12.7 2.54 0)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+>>>>>>> Stashed changes
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
+<<<<<<< Updated upstream
 							(size 1.27 1.27)
+=======
+							(size 1.016 1.016)
+>>>>>>> Stashed changes
 						)
 					)
 				)
 			)
+<<<<<<< Updated upstream
 			(pin power_in line
 				(at -2.54 -2.54 0)
 				(length 2.54)
@@ -5665,17 +6070,31 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+=======
+			(pin passive line
+				(at -12.7 0 0)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+>>>>>>> Stashed changes
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
+<<<<<<< Updated upstream
 							(size 1.27 1.27)
+=======
+							(size 1.016 1.016)
+>>>>>>> Stashed changes
 						)
 					)
 				)
 			)
+<<<<<<< Updated upstream
 			(pin power_out line
 				(at 15.24 -2.54 180)
 				(length 2.54)
@@ -5683,17 +6102,31 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+=======
+			(pin input line
+				(at -12.7 -5.08 0)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+>>>>>>> Stashed changes
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
+<<<<<<< Updated upstream
 							(size 1.27 1.27)
+=======
+							(size 1.016 1.016)
+>>>>>>> Stashed changes
 						)
 					)
 				)
 			)
+<<<<<<< Updated upstream
 			(pin no_connect line
 				(at 15.24 -8.89 180)
 				(length 2.54) hide
@@ -5701,17 +6134,31 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+=======
+			(pin power_in line
+				(at 17.78 -5.08 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+>>>>>>> Stashed changes
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
+<<<<<<< Updated upstream
 							(size 1.27 1.27)
+=======
+							(size 1.016 1.016)
+>>>>>>> Stashed changes
 						)
 					)
 				)
 			)
+<<<<<<< Updated upstream
 			(pin passive line
 				(at 15.24 -5.08 180)
 				(length 2.54)
@@ -5719,17 +6166,31 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+=======
+			(pin input line
+				(at 17.78 0 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+>>>>>>> Stashed changes
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
+<<<<<<< Updated upstream
 							(size 1.27 1.27)
+=======
+							(size 1.016 1.016)
+>>>>>>> Stashed changes
 						)
 					)
 				)
 			)
+<<<<<<< Updated upstream
 			(pin passive line
 				(at 6.35 -12.7 90)
 				(length 2.54) hide
@@ -5737,13 +6198,44 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+=======
+			(pin output line
+				(at 17.78 2.54 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+>>>>>>> Stashed changes
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
+<<<<<<< Updated upstream
 							(size 1.27 1.27)
+=======
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 7.62 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+>>>>>>> Stashed changes
 						)
 					)
 				)
