@@ -1,0 +1,195 @@
+(footprint "TestPoint_with_via_label"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8466ea67-cbd4-4311-a1f8-252e49c42334")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 -1.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "eb966020-3d63-47d7-bd3b-6d55d18996b6")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9676acd-e40b-43a5-ad5f-8e58270a041c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "test point"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cacbdd27-ac00-43e8-8268-3620ed622adf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e3b2247-5138-46d3-9b19-7e7fbc398da1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ac651e6-e17f-424c-8537-188238a4460c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdb0ff12-bd7c-4243-9301-8092e19d3e00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c42cd49-7934-4c47-9f47-73ff4b24c427")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb01e284-963f-4202-8066-322188cd3807")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7355a1c5-f671-49d4-b024-97ade406a7f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
+	(fp_arc
+		(start -0.292485 -0.875994)
+		(mid -0.000572 -1.142436)
+		(end 0.292377 -0.877132)
+		(stroke
+			(width 0.06)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "bfcb0c49-52e2-40c1-99d0-c793216b5e3c")
+	)
+	(fp_arc
+		(start 0.292377 -0.877132)
+		(mid 0.001413 0.924577)
+		(end -0.295056 -0.876234)
+		(stroke
+			(width 0.06)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "dac23167-6cf8-4868-b8ce-ca2545fce3bc")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -0.85)
+		(size 0.45 0.45)
+		(drill 0.3)
+		(property pad_prop_testpoint)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "e28e4209-4eb0-411c-9537-7f082c599281")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(property pad_prop_testpoint)
+		(layers "F.Cu" "F.Mask")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "e520321d-56db-47a9-a5aa-92a45019143b")
+	)
+	(embedded_fonts no)
+)
