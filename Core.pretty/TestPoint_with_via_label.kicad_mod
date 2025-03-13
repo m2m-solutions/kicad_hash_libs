@@ -130,7 +130,7 @@
 			)
 		)
 	)
-	(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
+	(attr exclude_from_pos_files exclude_from_bom dnp)
 	(fp_arc
 		(start -0.292485 -0.875994)
 		(mid -0.000572 -1.142436)

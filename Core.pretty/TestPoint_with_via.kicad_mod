@@ -1,7 +1,7 @@
 (footprint "TestPoint_with_via"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "TP8"
 		(at 0 -0.25 0)
@@ -26,18 +26,6 @@
 			(font
 				(size 0.2 0.2)
 				(thickness 0.02)
-			)
-		)
-	)
-	(property "Footprint" "#Core:TestPoint_with_via"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7b112f90-bace-4d96-a188-14478ae5f2a2")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -143,7 +131,7 @@
 			)
 		)
 	)
-	(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
+	(attr exclude_from_pos_files exclude_from_bom dnp)
 	(fp_arc
 		(start -0.292485 -0.875994)
 		(mid -0.000572 -1.142436)
@@ -178,7 +166,7 @@
 			(max_length 1)
 			(best_width_ratio 1)
 			(max_width 2)
-			(curve_points 0)
+			(curved_edges no)
 			(filter_ratio 0.9)
 			(enabled yes)
 			(allow_two_segments yes)
@@ -196,7 +184,7 @@
 			(max_length 1)
 			(best_width_ratio 1)
 			(max_width 2)
-			(curve_points 0)
+			(curved_edges no)
 			(filter_ratio 0.9)
 			(enabled yes)
 			(allow_two_segments yes)
@@ -204,4 +192,5 @@
 		)
 		(uuid "e520321d-56db-47a9-a5aa-92a45019143b")
 	)
+	(embedded_fonts no)
 )

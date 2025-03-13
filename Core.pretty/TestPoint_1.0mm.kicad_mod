@@ -1,7 +1,7 @@
 (footprint "TestPoint_1.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "test point SMD pad")
 	(property "Reference" "TP4"
@@ -25,18 +25,6 @@
 			(font
 				(size 0.2 0.2)
 				(thickness 0.02)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "63b7c754-419e-40f7-a667-4a3b1f41e49d")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -64,7 +52,7 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom)
+	(attr exclude_from_pos_files exclude_from_bom dnp)
 	(fp_circle
 		(center 0 0)
 		(end 0.6 0)
@@ -72,7 +60,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "bbf9e1cc-5b99-4e63-8eeb-6275adf1450a")
 	)
@@ -83,20 +71,20 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8a472372-bba1-4ada-88e4-928f7eb20215")
 	)
 	(pad "1" smd circle
 		(at 0 0)
 		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(teardrops
 			(best_length_ratio 0.5)
 			(max_length 1)
 			(best_width_ratio 1)
 			(max_width 2)
-			(curve_points 0)
+			(curved_edges no)
 			(filter_ratio 0.9)
 			(enabled yes)
 			(allow_two_segments yes)
@@ -104,4 +92,5 @@
 		)
 		(uuid "6fd9a9c9-065c-494c-8661-9e925d5e135a")
 	)
+	(embedded_fonts no)
 )
