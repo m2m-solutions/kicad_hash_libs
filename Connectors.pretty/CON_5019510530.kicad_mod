@@ -190,4 +190,15 @@
 		(uuid "d2a94311-7140-4891-8180-6ce98a1dca92")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/../../kicad_hash_libs/3dModels/5019510530.stp"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
