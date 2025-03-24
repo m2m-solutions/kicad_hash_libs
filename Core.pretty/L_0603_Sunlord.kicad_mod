@@ -1,7 +1,7 @@
 (footprint "L_0603_Sunlord"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.5 0)
@@ -26,19 +26,6 @@
 			(font
 				(size 0.5 0.5)
 				(thickness 0.0675)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 7.1 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4d1f531c-dc3c-4716-a294-d57e673ae509")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -196,22 +183,34 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "1eee39b6-fbea-411d-a304-83e9d847f65d")
 	)
 	(pad "1" smd rect
 		(at -3.025 0)
 		(size 2.35 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "19924742-81ea-4741-868d-bf258cd09482")
 	)
 	(pad "2" smd rect
 		(at 3.025 0)
 		(size 2.35 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "2fd891c9-b51f-4e15-b886-06ea2dd2d63e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRN6045TA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
