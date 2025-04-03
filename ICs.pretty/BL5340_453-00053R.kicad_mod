@@ -4,26 +4,26 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -2.3 6 270)
+		(at 0.9 0.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "96fbc458-d414-463c-b013-0c69015ed609")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.08)
+				(size 0.4 0.4)
+				(thickness 0.04)
 			)
 		)
 	)
-	(property "Value" "VAL**"
-		(at 1.8 1.9 0)
+	(property "Value" "BL5340"
+		(at 1.2 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "40e7c61a-c18f-494d-8cea-6d1d8937abc1")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.08)
+				(size 0.4 0.4)
+				(thickness 0.04)
 			)
 		)
 	)
@@ -56,7 +56,7 @@
 	(attr smd)
 	(fp_poly
 		(pts
-			(xy -0.000001 15) (xy 0 0) (xy 10 0) (xy 9.999999 15)
+			(xy -0.100001 15.1) (xy -0.1 -0.1) (xy 10.1 -0.1) (xy 10.1 15.1)
 		)
 		(stroke
 			(width 0.1)
@@ -67,8 +67,8 @@
 		(uuid "fffb12b8-8e87-4e40-9d63-6a7028c07c52")
 	)
 	(fp_rect
-		(start -0.100001 -0.1)
-		(end 10.1 15.1)
+		(start -0.2 -0.2)
+		(end 10.2 15.2)
 		(stroke
 			(width 0.05)
 			(type default)
